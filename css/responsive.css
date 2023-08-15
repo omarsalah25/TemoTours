@@ -867,10 +867,6 @@
 }
 
 @media (max-width: 575px) {
-	.call-us h1 {
-		font-size: 20px;
-	}
-
 	#mainSlider .carousel-item {
 		height: 450px;
 	}
@@ -1074,7 +1070,7 @@
 	}
 
 	.call-us h1 {
-		font-size: 30px;
+		font-size: 20px;
 	}
 
 	.quote-area section {
