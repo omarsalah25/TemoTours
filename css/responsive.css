@@ -1,10 +1,12 @@
-@media(max-width: 1300px) {
+@media (max-width: 1300px) {
 	.quote-area section > h2,
 	.quote-area .call-us {
 		margin-left: 0;
 	}
 
-	.quote-area section > h2 br {display: none;}
+	.quote-area section > h2 br {
+		display: none;
+	}
 
 	.quote-form-wrapper .col-xl-11.pl-30 {
 		padding-left: 0 !important;
@@ -12,21 +14,21 @@
 	}
 }
 
-@media(max-width: 1199px) {
+@media (max-width: 1199px) {
 	.intro .thm-header::before {
 		left: 50%;
-	    -webkit-transform: translateX(-50%);
-	    -ms-transform: translateX(-50%);
-	    -o-transform: translateX(-50%);
-	    transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 
 	.intro .thm-header::after {
-	    left: calc(50% + 1px);
-	    -webkit-transform: translateX(-50%);
-	    -ms-transform: translateX(-50%);
-	    -o-transform: translateX(-50%);
-	    transform: translateX(-50%);
+		left: calc(50% + 1px);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 
 	.whyus section {
@@ -34,11 +36,11 @@
 	}
 
 	.process-single {
-	  padding: 86px 50px 91px;
+		padding: 86px 50px 91px;
 	}
 
 	.about-page header figure figcaption p {
-	  padding: 52px 0 115px;
+		padding: 52px 0 115px;
 	}
 
 	.skill-area {
@@ -55,32 +57,32 @@
 
 	#point2 {
 		bottom: 98px;
-    	left: 233px;
+		left: 233px;
 	}
 
 	#point3 {
 		top: 30px;
-    	left: 392px;
+		left: 392px;
 	}
 
 	#point4 {
-    	bottom: 79px;
-	    left: 506px;
+		bottom: 79px;
+		left: 506px;
 	}
 
 	#point5 {
-	    top: 30px;
-	    left: 733px;
+		top: 30px;
+		left: 733px;
 	}
 
 	#point6 {
-	    left: 829px;
-	    bottom: 105px;
+		left: 829px;
+		bottom: 105px;
 	}
 
 	.feature-list {
-	  padding: 80px 60px 85px;
-	  left: 0;
+		padding: 80px 60px 85px;
+		left: 0;
 	}
 
 	.about-2 .col-xl-6 > figure figcaption a {
@@ -97,18 +99,18 @@
 
 	.about-2 section .thm-header::before {
 		left: 50%;
-	    -webkit-transform: translateX(-50%);
-	    -ms-transform: translateX(-50%);
-	    -o-transform: translateX(-50%);
-	    transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 
 	.about-2 section .thm-header::after {
-	    left: calc(50% + 1px);
-	    -webkit-transform: translateX(-50%);
-	    -ms-transform: translateX(-50%);
-	    -o-transform: translateX(-50%);
-	    transform: translateX(-50%);
+		left: calc(50% + 1px);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
 	}
 
 	.about-2 section {
@@ -120,48 +122,51 @@
 	}
 
 	.quote-area section {
-	  padding: 50px 30px;
+		padding: 50px 30px;
 	}
 
-	.quote-area section > h2 {} 
+	.quote-area section > h2 {
+	}
 	.quote-area .call-us {
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.quote-area .quote-form {
-	  padding: 50px 0;
+		padding: 50px 0;
 	}
 	.quote-form-wrapper .col-xl-11.pl-30 {
 		padding-right: 0 !important;
 	}
-	.quote-form-wrapper::before {display: none;}
+	.quote-form-wrapper::before {
+		display: none;
+	}
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
 	#mainSlider .carousel-item {
-	    height: 780px;
+		height: 780px;
 	}
-	
+
 	[data-item="3"] .bannerContent > h1,
 	[data-item="4"] .bannerContent h1,
 	.bannerContent > h1 {
-	  font-size: 50px;
+		font-size: 50px;
 	}
 
 	[data-item="2"] .bannerContent > p,
 	[data-item="5"] .bannerContent > p {
-	    width: 90px;
-	    height: 90px;
-	    margin-bottom: 20px;
+		width: 90px;
+		height: 90px;
+		margin-bottom: 20px;
 	}
 
 	.bannerContent > p > i {
-	    font-size: 50px;
+		font-size: 50px;
 	}
 
 	.bannerContent > a {
-	  padding: 15px 30px 15px 32px;
+		padding: 15px 30px 15px 32px;
 	}
 
 	.bannerContent > p {
@@ -169,24 +174,26 @@
 	}
 
 	[data-item="1"] .bannerContent > p {
-	    padding-bottom: 10px;
-	    margin-bottom: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
 	}
 
 	.bannerContent > p > span {
-	  padding: 10px 15px 10px 19px;
+		padding: 10px 15px 10px 19px;
 	}
 
-	[data-item="3"] .bannerContent > p:first-of-type {margin-top: 10px;}
+	[data-item="3"] .bannerContent > p:first-of-type {
+		margin-top: 10px;
+	}
 
 	#mainSlider [class^="carousel-control-"] {
-	  width: 54px;
-	  height: 52px;
-	  font-size: 18px;
+		width: 54px;
+		height: 52px;
+		font-size: 18px;
 	}
 
 	.thm-header h1 {
-	    font-size: 45px;
+		font-size: 45px;
 	}
 
 	.intro {
@@ -194,12 +201,12 @@
 	}
 
 	.facts {
-	    padding: 50px 0;
-	    margin-top: 30px;
+		padding: 50px 0;
+		margin-top: 30px;
 	}
 
 	.sec-service {
-	    padding-top: 50px;
+		padding-top: 50px;
 	}
 
 	.service-carousel {
@@ -207,22 +214,22 @@
 	}
 
 	.service-card-body p {
-	    padding-top: 15px;
-	    padding-bottom: 15px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 	.testimony {
-	    padding: 50px 0 30px;
+		padding: 50px 0 30px;
 	}
 
 	.slide-text p {
-	    font-size: 18px;
-	    line-height: 30px;
-	    padding: 0 15px;
+		font-size: 18px;
+		line-height: 30px;
+		padding: 0 15px;
 	}
 
 	.testi-pager {
-	    margin-bottom: 30px;
+		margin-bottom: 30px;
 	}
 
 	.slide-text h4.mt-30 {
@@ -230,8 +237,8 @@
 	}
 
 	.rating-area .bx-controls-direction [class^="bx-"] {
-	    width: 54px;
-	    height: 52px;
+		width: 54px;
+		height: 52px;
 	}
 
 	.rating-area .bx-controls-direction [class^="bx-"] i {
@@ -239,15 +246,15 @@
 	}
 
 	.rating-area .bx-controls-direction .bx-prev {
-	    left: -80px;
+		left: -80px;
 	}
 	.rating-area .bx-controls-direction .bx-next {
-	    right: -80px;
+		right: -80px;
 	}
 
 	.sec-team,
 	.whyus {
-	    padding-top: 50px;
+		padding-top: 50px;
 	}
 
 	.member-card {
@@ -255,11 +262,11 @@
 	}
 
 	.whyus section > h2 {
-	    padding: 15px 0;
+		padding: 15px 0;
 	}
 
 	.feature-area figure img {
-	    max-width: 100%
+		max-width: 100%;
 	}
 
 	.whyus::before {
@@ -267,22 +274,22 @@
 	}
 
 	.feature-area h2 {
-	    font-size: 30px;
-	    line-height: 40px;
-	    width: 100%;
-	    padding: 30px;
+		font-size: 30px;
+		line-height: 40px;
+		width: 100%;
+		padding: 30px;
 
-	    position: relative;
-	    top: initial;
-	    left: initial;
+		position: relative;
+		top: initial;
+		left: initial;
 	}
 
 	.blog-card-body {
-	    padding: 20px 15px 0;
+		padding: 20px 15px 0;
 	}
 
 	.blog-card-body > p {
-	  padding: 20px 0 15px;
+		padding: 20px 0 15px;
 	}
 
 	.sec-blog {
@@ -290,18 +297,20 @@
 	}
 
 	.process {
-	  padding: 50px 0;
+		padding: 50px 0;
 	}
 
 	.process-single {
-	  padding: 56px 20px 51px;
+		padding: 56px 20px 51px;
 	}
 
 	.footer-middle {
-  		background: transparent;
-  	}
+		background: transparent;
+	}
 
-	.footerMiddle::before {display: none;}
+	.footerMiddle::before {
+		display: none;
+	}
 
 	.footer-col {
 		padding: 30px;
@@ -320,13 +329,13 @@
 	}
 
 	.op-header {
-	  padding: 70px 0 60px;
+		padding: 70px 0 60px;
 	}
 
 	.about-page header figure figcaption p {
-	  padding: 30px 0 50px;
-	  font-size: 22px;
-  	  line-height: 35px;
+		padding: 30px 0 50px;
+		font-size: 22px;
+		line-height: 35px;
 	}
 
 	.about-page {
@@ -350,32 +359,32 @@
 	}
 
 	#point2 {
-	    bottom: 77px;
-	    left: 166px;
+		bottom: 77px;
+		left: 166px;
 	}
 
 	#point3 {
-	    top: 21px;
-	    left: 290px;
+		top: 21px;
+		left: 290px;
 	}
 
 	#point4 {
-	    bottom: 60px;
-	    left: 379px;
+		bottom: 60px;
+		left: 379px;
 	}
 
 	#point5 {
-	    top: 17px;
-	    left: 538px;
+		top: 17px;
+		left: 538px;
 	}
 
 	#point6 {
-	    left: 617px;
-	    bottom: 81px;
+		left: 617px;
+		bottom: 81px;
 	}
 
 	.towit {
-	  padding: 50px 0 0;
+		padding: 50px 0 0;
 	}
 
 	.towit .thm-header {
@@ -383,15 +392,15 @@
 	}
 
 	.pointSingle {
-	  width: 20px;
-	  height: 21px;
-	  -webkit-box-shadow: 0 0 0 2px rgba(201, 31, 38, 0.2);
-	  box-shadow: 0 0 0 2px rgba(201, 31, 38, 0.2);
+		width: 20px;
+		height: 21px;
+		-webkit-box-shadow: 0 0 0 2px rgba(201, 31, 38, 0.2);
+		box-shadow: 0 0 0 2px rgba(201, 31, 38, 0.2);
 	}
 
 	.pointer-block .dropdown-menu {
-	  width: 260px;
-	  padding: 30px 25px 30px;
+		width: 260px;
+		padding: 30px 25px 30px;
 	}
 
 	.pointer-block .dropdown-menu h2 {
@@ -399,11 +408,11 @@
 	}
 
 	.partners {
-	  padding: 50px 0;
+		padding: 50px 0;
 	}
 
 	.repair-service {
-	    padding: 50px 0 25px;
+		padding: 50px 0 25px;
 	}
 
 	.repair-card {
@@ -420,8 +429,8 @@
 	}
 
 	.feature-area-2 .thm-header {
-	  margin: 80px 0 30px;
-	  z-index: 2;
+		margin: 80px 0 30px;
+		z-index: 2;
 	}
 
 	.feature-area-2 figure img {
@@ -430,13 +439,13 @@
 	}
 
 	.feature-list {
-	  padding: 40px;
-	  position: relative;
-	  top: initial;
-	  -webkit-transform: translateY(0);
-	  -ms-transform: translateY(0);
-	  -o-transform: translateY(0);
-	  transform: translateY(0);
+		padding: 40px;
+		position: relative;
+		top: initial;
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
 	}
 
 	.feature-area-2 {
@@ -448,7 +457,7 @@
 	}
 
 	.about-2 {
-	  padding: 50px 0;
+		padding: 50px 0;
 	}
 
 	.about-2 section {
@@ -456,8 +465,8 @@
 	}
 
 	.quote-area section > h2 {
-	  font-size: 30px;
-	  line-height: 42px;
+		font-size: 30px;
+		line-height: 42px;
 	}
 
 	.blog {
@@ -504,7 +513,7 @@
 	.service {
 		padding-top: 50px;
 	}
-	
+
 	.service .repair-service {
 		padding-bottom: 0;
 	}
@@ -514,9 +523,9 @@
 	}
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
 	#mainSlider .carousel-item {
-	    height: 600px;
+		height: 600px;
 	}
 
 	.bannerContent {
@@ -526,21 +535,20 @@
 	[data-item="3"] .bannerContent > h1,
 	[data-item="4"] .bannerContent h1,
 	.bannerContent > h1 {
-	  font-size: 38px;
-	  text-align: center;
+		font-size: 38px;
+		text-align: center;
 	}
 
 	[data-item="2"] .bannerContent > p,
 	[data-item="5"] .bannerContent > p {
-	    width: 60px;
-	    height: 60px;
-	    margin-bottom: 10px;
+		width: 60px;
+		height: 60px;
+		margin-bottom: 10px;
 	}
 
 	.bannerContent > p > i {
-	    font-size: 35px;
+		font-size: 35px;
 	}
-
 
 	.bannerContent > p {
 		font-size: 16px;
@@ -551,16 +559,22 @@
 	}
 
 	[data-item="4"] .bannerContent {
-	  width: 100%;
-	  padding: 50px 60px 60px;
+		width: 100%;
+		padding: 50px 60px 60px;
 	}
 
-	[data-item="3"] .bannerContent > p:first-of-type {margin-top: 10px;}
-	#mainSlider [class^="carousel-control-prev"] {margin-left: 0;}
-	#mainSlider [class^="carousel-control-next"] {margin-right: 0;}
+	[data-item="3"] .bannerContent > p:first-of-type {
+		margin-top: 10px;
+	}
+	#mainSlider [class^="carousel-control-prev"] {
+		margin-left: 0;
+	}
+	#mainSlider [class^="carousel-control-next"] {
+		margin-right: 0;
+	}
 
 	.thm-header h1 {
-	    font-size: 38px;
+		font-size: 38px;
 	}
 
 	.intro {
@@ -568,26 +582,26 @@
 	}
 
 	.facts {
-	    padding: 30px 0;
-	    margin-top: 20px;
+		padding: 30px 0;
+		margin-top: 20px;
 	}
 
 	.intro section > p {
-	    font-size: 16px;
-	    line-height: 26px;
+		font-size: 16px;
+		line-height: 26px;
 	}
 
 	.single-fact h1 {
-	    font-size: 32px;
-	    padding-top: 5px;
+		font-size: 32px;
+		padding-top: 5px;
 	}
 
 	.single-fact p {
-	    font-size: 14px;
+		font-size: 14px;
 	}
 
 	.single-fact i {
-	    font-size: 35px;
+		font-size: 35px;
 	}
 
 	.testimony .thm-header {
@@ -595,13 +609,13 @@
 	}
 
 	.rating-area .bx-controls-direction [class^="bx-"] {
-	    width: 44px;
-	    height: 42px;
-	    top: -50px;
-	    -webkit-transform: translateY(0);
-	    -ms-transform: translateY(0);
-	    -o-transform: translateY(0);
-	    transform: translateY(0);
+		width: 44px;
+		height: 42px;
+		top: -50px;
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
 	}
 
 	.rating-area .bx-controls-direction [class^="bx-"] i {
@@ -609,10 +623,10 @@
 	}
 
 	.rating-area .bx-controls-direction .bx-prev {
-	    left: -20px;
+		left: -20px;
 	}
 	.rating-area .bx-controls-direction .bx-next {
-	    right: -20px;
+		right: -20px;
 	}
 
 	.whyus {
@@ -640,9 +654,9 @@
 	}
 
 	.feature-area h2 {
-	    font-size: 26px;
-	    line-height: 35px;
-	    padding: 25px;
+		font-size: 26px;
+		line-height: 35px;
+		padding: 25px;
 	}
 
 	.whyus section > h2 {
@@ -655,9 +669,9 @@
 	}
 
 	.process-single {
-	  padding: 36px 20px;
-	  margin-bottom: 30px;
-	  margin-right: 0;
+		padding: 36px 20px;
+		margin-bottom: 30px;
+		margin-right: 0;
 	}
 
 	.process-single:last-of-type {
@@ -689,12 +703,12 @@
 	}
 
 	.op-header {
-	  padding: 50px 0 40px;
+		padding: 50px 0 40px;
 	}
 
 	.about-page header figure figcaption p {
-	  font-size: 20px;
-  	  line-height: 30px;
+		font-size: 20px;
+		line-height: 30px;
 	}
 
 	.towit figure figcaption {
@@ -706,33 +720,33 @@
 	}
 
 	#point2 {
-	    bottom: 60px;
-	    left: 120px;
+		bottom: 60px;
+		left: 120px;
 	}
 
 	#point3 {
-	    top: 15px;
-	    left: 212px;
+		top: 15px;
+		left: 212px;
 	}
 
 	#point4 {
-	    bottom: 46px;
-	    left: 279px;
+		bottom: 46px;
+		left: 279px;
 	}
 
 	#point5 {
-	    top: 12px;
-	    left: 396px;
+		top: 12px;
+		left: 396px;
 	}
 
 	#point6 {
-	    left: 453px;
-	    bottom: 62px;
+		left: 453px;
+		bottom: 62px;
 	}
 
 	.pointSingle {
-	  width: 16px;
-	  height: 15px;
+		width: 16px;
+		height: 15px;
 	}
 
 	.towit .thm-header {
@@ -748,8 +762,8 @@
 	}
 
 	.feature-area-2 .thm-header {
-	  margin: 40px 0 15px;
-	  z-index: 2;
+		margin: 40px 0 15px;
+		z-index: 2;
 	}
 
 	.feature-list li {
@@ -761,8 +775,8 @@
 	}
 
 	.quote-block {
-	  width: 100%;
-	  float: none !important;
+		width: 100%;
+		float: none !important;
 	}
 
 	.quote-block > label {
@@ -830,7 +844,8 @@
 		margin: 23px 0 15px;
 	}
 
-	.service-body > h3, .quote-form > h2 {
+	.service-body > h3,
+	.quote-form > h2 {
 		font-size: 25px;
 	}
 
@@ -851,27 +866,30 @@
 	}
 }
 
-@media(max-width: 575px) {
+@media (max-width: 575px) {
+	.call-us h1 {
+		font-size: 20px;
+	}
+
 	#mainSlider .carousel-item {
-	    height: 450px;
+		height: 450px;
 	}
 
 	[data-item="3"] .bannerContent > h1,
 	[data-item="4"] .bannerContent h1,
 	.bannerContent > h1 {
-	  font-size: 30px;
+		font-size: 30px;
 	}
 
 	[data-item="2"] .bannerContent > p,
 	[data-item="5"] .bannerContent > p {
-	    width: 50px;
-	    height: 50px;
+		width: 50px;
+		height: 50px;
 	}
 
 	.bannerContent > p > i {
-	    font-size: 28px;
+		font-size: 28px;
 	}
-
 
 	.bannerContent > p > span {
 		letter-spacing: 2px;
@@ -883,13 +901,13 @@
 	}
 
 	#mainSlider [class^="carousel-control-"] {
-	  width: 34px;
-	  height: 32px;
-	  font-size: 14px;
+		width: 34px;
+		height: 32px;
+		font-size: 14px;
 	}
 
 	[data-item="4"] .bannerContent {
-	  padding: 30px;
+		padding: 30px;
 	}
 
 	.single-fact:not(:last-of-type) {
@@ -897,11 +915,11 @@
 	}
 
 	.thm-header h1 {
-	    font-size: 32px;
+		font-size: 32px;
 	}
 
 	.sec-service {
-	    padding-top: 40px;
+		padding-top: 40px;
 	}
 
 	.service-carousel {
@@ -913,7 +931,7 @@
 	}
 
 	.blog-card-body > h2 > a {
-	  font-size: 26px;
+		font-size: 26px;
 	}
 
 	.sec-blog {
@@ -925,8 +943,8 @@
 	}
 
 	.footer-bottom {
-	  padding-top: 20px;
-	  padding-bottom: 15px;
+		padding-top: 20px;
+		padding-bottom: 15px;
 	}
 
 	.footer-bottom ul {
@@ -934,7 +952,7 @@
 	}
 
 	.about-page header figure figcaption p {
-	  font-size: 18px;
+		font-size: 18px;
 	}
 
 	.faq-blocks .card {
@@ -946,7 +964,7 @@
 	}
 
 	.faq-blocks .card .card-body {
-	  padding: 15px 0 11px 0;
+		padding: 15px 0 11px 0;
 	}
 
 	.faq-blocks .card .card-header button::before {
@@ -963,32 +981,32 @@
 	}
 
 	#point2 {
-	    bottom: 71px;
-	    left: 132px;
+		bottom: 71px;
+		left: 132px;
 	}
 
 	#point3 {
-	    top: 9px;
-	    left: 227px;
+		top: 9px;
+		left: 227px;
 	}
 
 	#point4 {
-	    bottom: 53px;
-	    left: 302px;
+		bottom: 53px;
+		left: 302px;
 	}
 
 	#point5 {
-	    left: 429px;
+		left: 429px;
 	}
 
 	#point6 {
-	    left: 484px;
-	    bottom: 81px;
+		left: 484px;
+		bottom: 81px;
 	}
 
 	.pointSingle {
-	  width: 12px;
-	  height: 11px;
+		width: 12px;
+		height: 11px;
 	}
 
 	.repair-card {
@@ -996,8 +1014,8 @@
 	}
 
 	.pointer-block .dropdown-menu {
-	  width: 240px;
-	  padding: 20px 15px 20px;
+		width: 240px;
+		padding: 20px 15px 20px;
 	}
 
 	.pointer-block .dropdown-menu h2 {
@@ -1064,7 +1082,7 @@
 	}
 
 	.quote-form button {
-	  padding: 18px 15px 18px 18px;
+		padding: 18px 15px 18px 18px;
 	}
 
 	.contact {
@@ -1123,7 +1141,7 @@
 	}
 
 	.blog-widget {
-	    padding: 34px 38px 30px;
+		padding: 34px 38px 30px;
 	}
 
 	.service-body > h2,
@@ -1145,7 +1163,8 @@
 		padding-top: 10px;
 	}
 
-	.service-body > h3, .quote-form > h2 {
+	.service-body > h3,
+	.quote-form > h2 {
 		font-size: 22px;
 	}
 
@@ -1154,7 +1173,7 @@
 	}
 
 	.service-widget {
-	  padding: 34px 25px 30px;
+		padding: 34px 25px 30px;
 	}
 
 	.service-widget ul > li > a {
@@ -1162,15 +1181,15 @@
 	}
 }
 
-@media(max-width: 414px) {
+@media (max-width: 414px) {
 	#mainSlider .carousel-item {
-	    height: 400px;
+		height: 400px;
 	}
 
 	[data-item="3"] .bannerContent > h1,
 	[data-item="4"] .bannerContent h1,
 	.bannerContent > h1 {
-	  font-size: 28px;
+		font-size: 28px;
 	}
 
 	.bannerContent > p > span {
@@ -1183,8 +1202,8 @@
 	}
 
 	.service-card-body {
-	    margin-left: auto;
-	    padding: 12px 15px 0;
+		margin-left: auto;
+		padding: 12px 15px 0;
 	}
 
 	.member-card {
@@ -1192,15 +1211,15 @@
 	}
 
 	.blog-card-body > h2 > a {
-	  font-size: 22px;
+		font-size: 22px;
 	}
 
 	.blog-card-body {
-	    padding: 0 10px 0;
+		padding: 0 10px 0;
 	}
 
 	.blog-card-body > p {
-	  padding: 10px 0;
+		padding: 10px 0;
 	}
 
 	.repair-card {
@@ -1231,27 +1250,27 @@
 	}
 
 	#point2 {
-	    bottom: 43px;
-	    left: 88px;
+		bottom: 43px;
+		left: 88px;
 	}
 
 	#point3 {
-	    top: 11px;
-	    left: 160px;
+		top: 11px;
+		left: 160px;
 	}
 
 	#point4 {
-	    bottom: 34px;
-	    left: 209px;
+		bottom: 34px;
+		left: 209px;
 	}
 
 	#point5 {
-	    left: 304px;
+		left: 304px;
 	}
 
 	#point6 {
-	    left: 342px;
-	    bottom: 45px;
+		left: 342px;
+		bottom: 45px;
 	}
 
 	.feature-list {
@@ -1263,7 +1282,7 @@
 	}
 }
 
-@media(max-width: 380px) {
+@media (max-width: 380px) {
 	.about-2 section figure img {
 		margin-bottom: 15px;
 	}
@@ -1272,7 +1291,7 @@
 	}
 
 	.blog-widget {
-	    padding: 30px 20px;
+		padding: 30px 20px;
 	}
 
 	.blog-widget .media h5 a {
