@@ -767,7 +767,7 @@
 	}
 
 	.feature-list li {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	.feature-list li:not(:last-of-type) {

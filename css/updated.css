@@ -67,7 +67,6 @@
 	background: transparent;
 	position: relative;
 	display: block;
-	padding-left: 280px;
 }
 
 .header-navigation .container .logo-box {
@@ -82,6 +81,7 @@
 .header-navigation .container .navbar-brand {
 	height: auto;
 	margin: 0;
+	width: 120px;
 }
 
 .header-navigation .container .menu-toggler {
@@ -563,7 +563,7 @@
 }
 
 .site-header.header-two .header-navigation .container {
-	padding-left: 260px;
+	/* padding-left: 260px; */
 }
 
 .site-header.header-two .header-navigation.stricky-fixed {

@@ -534,7 +534,7 @@ nav {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #fff url(../img/logo\\(1\).webp) center center no-repeat;
+	background: #fff;
 	z-index: 99999999;
 }
 
@@ -645,6 +645,24 @@ a[href^="https://maps.google.com/maps"]
 
 /* thm-header start */
 
+.whatsapp a{
+    text-decoration: none;
+    color: #ffffff !important;
+    background-color: #ca1f26;
+    padding: 3px 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    position: fixed;
+    right: 1px;
+    top: 52%;
+    z-index: 99999999;
+
+  }
+  .whatsapp span {
+    font-weight: 300;
+  }
+
+
 .thm-header-sub {
 	font-family: "Muli", sans-serif;
 	position: relative;
@@ -653,8 +671,8 @@ a[href^="https://maps.google.com/maps"]
 }
 
 .thm-header-sub h1 {
-	font-weight: 200;
-	font-size: 60px;
+	font-weight: 500;
+	font-size: 40px;
 }
 
 .thm-header {
@@ -737,6 +755,10 @@ a[href^="https://maps.google.com/maps"]
 .op-header {
 	padding: 120px 0 106px;
 	background: #f3f5f9;
+}
+.op-header1 {
+	padding: 120px 0 106px;
+	background: #dddddd3d;
 }
 /* thm-header end */
 
@@ -931,6 +953,7 @@ a[href^="https://maps.google.com/maps"]
 /* nav-2 start */
 .nav-2 .navbar-brand {
 	padding-left: 15px;
+	width: 20px;
 }
 
 .thm-search {
@@ -2306,6 +2329,9 @@ a[href^="https://maps.google.com/maps"]
 
 .repair-card {
 	margin-bottom: 30px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .repair-card .icon-holder {
@@ -2911,7 +2937,7 @@ a[href^="https://maps.google.com/maps"]
 	color: #7c848a;
 	font-size: 18px;
 	line-height: 30px;
-	margin-top: 37px;
+	/* margin-top: 37px; */
 }
 
 .about-2 section figure {
@@ -2977,4 +3003,11 @@ a[href^="https://maps.google.com/maps"]
 	margin-left: -50px;
 	border: none;
 	text-align: center;
+}
+
+
+.dest-desc img {
+	
+	max-width: 400px;
+	max-height: 300px;
 }
