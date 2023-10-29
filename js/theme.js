@@ -243,6 +243,40 @@
     }
 
 
+
+    $(".news-slider").owlCarousel({
+        items: 3,
+        loop: true,
+        autoplay: true,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [980, 2],
+        itemsMobile: [600, 1],
+        navigation: true,
+        navigationText: ["", ""],
+        pagination: true,
+        navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+
+        autoPlay: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 2
+            },
+            767: {
+                items: 3
+            },
+            1199: {
+                items: 4
+            },
+            1200: {
+                items: 4
+            }
+        }
+    });
+
+
     if ($('.partner-carousel').length) {
         $('.partner-carousel').owlCarousel({
             loop: true,

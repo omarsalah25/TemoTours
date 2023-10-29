@@ -5,7 +5,7 @@
 
 @media (max-width: 1440px) {
     .site-header.header-two .header-navigation .container {
-        padding-left: 200px;
+        /* padding-left: 200px; */
     }
 }
 @media (max-width: 1280px) {
@@ -78,6 +78,8 @@
         display: block !important;
         height: auto;
         max-height: 70vh;
+        width: 100% !important;
+        padding: 0;
     }
 
     .navbar-collapse.show {
@@ -264,7 +266,7 @@
         position: absolute;
         left: 0;
         float: none;
-        top: 73px;
+        top: 92px;
         width: 100%;
         z-index: 565989;
         display: none;
@@ -287,7 +289,6 @@
     }
 
     .header-navigation .container .menu-toggler {
-        float: left;
         color: #fff;
         margin-left: 30px;
     }
@@ -356,8 +357,7 @@
     }
     .site-header.header-two .header-navigation .container .menu-toggler {
         color: #05223A;
-        margin-top: 16px;
-        margin-bottom: 16px;
+        margin-top: 24px;
     }
     .site-header.header-two .header-navigation ul.navigation-box > li {
         padding: 0;
@@ -406,6 +406,7 @@
     }
     .site-header.header-two .header-navigation .container .menu-toggler {
         float: right;
+        margin-top: 30px;
     }
     #minimal-bootstrap-carousel.slider-home-two .bannerContent h2 {
         font-size: 43px;
